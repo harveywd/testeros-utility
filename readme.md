@@ -12,7 +12,7 @@ This is where your description should go. Take a look at [contributing.md](contr
 Via Composer
 
 ``` bash
-$ composer require harveywd/testerosutility
+$ composer require harveywd/testeros-utility --dev
 ```
 
 ## Usage
