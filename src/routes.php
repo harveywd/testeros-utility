@@ -1,9 +1,8 @@
 <?php
 
-Route::group(['prefix' => '_testeros/utils'], function () {
-
+Route::group(['prefix' => '_testeros/utils', 'namespace' => 'Harveywd\TesterosUtility\Http\Controllers'], function () {
     Route::get('/cookie/{cookieName}', [
         'middleware' => 'web',
-        'uses' => 'Harveywd\TesterosUtility\Http\Controllers\TesterosUtilityController@getCookie',
+        'uses' => 'TesterosUtilityController@getCookie',
     ]);
 });
